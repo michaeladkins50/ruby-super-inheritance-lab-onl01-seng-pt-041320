@@ -1,1 +1,7 @@
-class Chatty
+class ChattyStudent < Student
+  
+  def hello
+    super
+    puts ""
+  
+end
